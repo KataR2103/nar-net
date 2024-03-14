@@ -1,0 +1,44 @@
+
+.wrapper {
+	width: 100%;
+	max-width: 100%;
+	/*margin: 0 auto;
+	padding: 0.5rem;*/
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color:hsl(0, 0%, 54.1%);
+	padding: 1rem 1.5rem;
+/*	border-radius: 0.4rem;*/
+}
+
+nav.logo {
+	font-weight: 700;
+	font-size: 12px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 2rem;
+	margin-top: 8px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+nav #toggle,
+nav label {
+	display: none;
+}
+.Bx {
+	list-style: none;
+
+}
